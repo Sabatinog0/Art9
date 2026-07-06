@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 533" role="img" aria-label="Iron Man Mark 85">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B21A8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#121212" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="533" fill="url(#g)"/>
+  <rect x="0" y="0" width="400" height="533" fill="none" stroke="#000" stroke-opacity="0.25" stroke-width="6"/>
+  <text x="200" y="266" font-family="Arial, sans-serif" font-weight="700" font-size="26" fill="#FFFFFF" text-anchor="middle">Iron Man Mark 85</text>
+  <text x="200" y="500" font-family="Arial, sans-serif" font-size="16" fill="#FFC107" text-anchor="middle" opacity="0.85">ART 9</text>
+</svg>
