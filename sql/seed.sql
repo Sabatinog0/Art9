@@ -21,34 +21,33 @@ INSERT INTO metodo_pagamento (id_utente, intestatario, numero_mascherato, scaden
 
 
 INSERT INTO prodotto (id_categoria, nome, descrizione, prezzo, iva_percentuale, quantita_disponibile, in_preordine, editore, immagine) VALUES
-    (1, 'One Piece Vol. 102', 'Il capitolo conclusivo della saga di Wano Kuni.', 5.90, 4.00, 40, FALSE, 'Star Comics', 'img/prodotti/one-piece-102.svg'),
-    (1, 'Jujutsu Kaisen Vol. 20', 'Il duello finale tra Yuji e Sukuna si avvicina.', 6.50, 4.00, 35, FALSE, 'Star Comics', 'img/prodotti/jujutsu-kaisen-20.svg'),
-    (1, 'Chainsaw Man Vol. 14', 'La seconda parte della serie di Tatsuki Fujimoto.', 6.90, 4.00, 30, TRUE, 'Star Comics', 'img/prodotti/chainsaw-man-14.svg'),
-    (1, 'Berserk Deluxe Vol. 5', 'Edizione deluxe a colori con sovraccoperta.', 24.90, 4.00, 15, FALSE, 'Panini Comics', 'img/prodotti/berserk-deluxe-5.svg'),
-    (1, 'My Hero Academia Vol. 38', 'Il gran finale della serie di Kohei Horikoshi.', 5.20, 4.00, 25, FALSE, 'Star Comics', 'img/prodotti/mha-38.svg'),
+    (1, 'One Piece Vol. 102', 'Il capitolo conclusivo della saga di Wano Kuni.', 5.90, 4.00, 40, FALSE, 'Star Comics', 'img/prodotti/one-piece-102.jpg'),
+    (1, 'Jujutsu Kaisen Vol. 20', 'Il duello finale tra Yuji e Sukuna si avvicina.', 6.50, 4.00, 35, FALSE, 'Star Comics', 'img/prodotti/jujutsu-kaisen-20.jpg'),
+    (1, 'Chainsaw Man Vol. 14', 'La seconda parte della serie di Tatsuki Fujimoto.', 6.90, 4.00, 30, TRUE, 'Star Comics', 'img/prodotti/chainsaw-man-14.jpg'),
+    (1, 'Berserk Deluxe Vol. 5', 'Edizione deluxe a colori con sovraccoperta.', 24.90, 4.00, 15, FALSE, 'Panini Comics', 'img/prodotti/berserk-deluxe-5.jpg'),
+    (1, 'My Hero Academia Vol. 38', 'Il gran finale della serie di Kohei Horikoshi.', 5.20, 4.00, 25, FALSE, 'Star Comics', 'img/prodotti/mha-38.jpg'),
 
-    (2, 'Batman: Anno Uno', 'La celebre origin story firmata Frank Miller.', 19.90, 4.00, 20, FALSE, 'Panini DC Italia', 'img/prodotti/batman-anno-uno.svg'),
-    (2, 'The Amazing Spider-Man: Il Ritorno di Kraven', 'Kraven il Cacciatore torna a New York.', 17.50, 4.00, 18, FALSE, 'Panini Marvel Italia', 'img/prodotti/spiderman-kraven.svg'),
-    (2, 'Dylan Dog n.451', 'L''Indagatore dell''Incubo nel nuovo episodio mensile.', 3.90, 4.00, 50, FALSE, 'Sergio Bonelli Editore', 'img/prodotti/dylan-dog-451.svg'),
-    (2, 'Watchmen', 'Il capolavoro di Alan Moore e Dave Gibbons.', 29.90, 4.00, 12, FALSE, 'Panini DC Italia', 'img/prodotti/watchmen.svg'),
-    (2, 'Saga Vol. 1', 'Space opera pluripremiata di Brian K. Vaughan.', 15.00, 4.00, 22, FALSE, 'BAO Publishing', 'img/prodotti/saga-1.svg'),
+    (2, 'Batman: Anno Uno', 'La celebre origin story firmata Frank Miller.', 19.90, 4.00, 20, FALSE, 'Panini DC Italia', 'img/prodotti/batman-anno-uno.jpg'),
+    (2, 'The Amazing Spider-Man: Il Ritorno di Kraven', 'Kraven il Cacciatore torna a New York.', 17.50, 4.00, 18, FALSE, 'Panini Marvel Italia', 'img/prodotti/spiderman-kraven.jpg'),
+    (2, 'Dylan Dog n.451', 'L''Indagatore dell''Incubo nel nuovo episodio mensile.', 3.90, 4.00, 50, FALSE, 'Sergio Bonelli Editore', 'img/prodotti/dylan-dog-451.jpg'),
+    (2, 'Watchmen', 'Il capolavoro di Alan Moore e Dave Gibbons.', 29.90, 4.00, 12, FALSE, 'Panini DC Italia', 'img/prodotti/watchmen.jpg'),
+    (2, 'Saga Vol. 1', 'Space opera pluripremiata di Brian K. Vaughan.', 15.00, 4.00, 22, FALSE, 'BAO Publishing', 'img/prodotti/saga-1.jpg'),
 
-    (3, 'Funko Pop! Luffy Gear 5', 'Rufy nella sua trasformazione Gear 5.', 19.99, 22.00, 30, FALSE, 'Funko', 'img/prodotti/funko-luffy-gear5.svg'),
-    (3, 'Figure Batman Hush 1/6', 'Statua da collezione in scala 1:6.', 45.00, 22.00, 8, TRUE, 'McFarlane Toys', 'img/prodotti/batman-hush-figure.svg'),
-    (3, 'Dragon Ball Ichiban Kuji - Goku Ultra Istinto', 'Figure premio della lotteria Ichiban Kuji.', 55.00, 22.00, 6, FALSE, 'Bandai', 'img/prodotti/goku-ultra-istinto.svg'),
-    (3, 'Action Figure Iron Man Mark 85', 'Riproduzione ad altissimo dettaglio.', 289.00, 22.00, 3, FALSE, 'Hot Toys', 'img/prodotti/ironman-mk85.svg'),
-    (3, 'Nendoroid Nezuko Kamado', 'Nendoroid ufficiale da Demon Slayer.', 49.90, 22.00, 10, FALSE, 'Good Smile Company', 'img/prodotti/nendoroid-nezuko.svg'),
-
-    (4, 'Zaino Naruto Akatsuki', 'Zaino scuola/tempo libero con logo Akatsuki.', 39.90, 22.00, 25, FALSE, 'Art 9 Merch', 'img/prodotti/zaino-akatsuki.svg'),
-    (4, 'Felpa Attack on Titan Survey Corps', 'Felpa unisex con stemma del Corpo di Ricerca.', 34.90, 22.00, 20, FALSE, 'Art 9 Merch', 'img/prodotti/felpa-aot.svg'),
-    (4, 'Tazza Termosensibile Dragon Ball', 'Cambia immagine al contatto con liquidi caldi.', 12.90, 22.00, 60, FALSE, 'Art 9 Merch', 'img/prodotti/tazza-dragonball.svg'),
-    (4, 'Poster One Piece - Ciurma di Cappello di Paglia', 'Stampa di alta qualita'' formato 61x91cm.', 9.90, 22.00, 45, FALSE, 'Art 9 Merch', 'img/prodotti/poster-onepiece.svg'),
+    (3, 'Funko Pop! Luffy Gear 5', 'Rufy nella sua trasformazione Gear 5.', 19.99, 22.00, 30, FALSE, 'Funko', 'img/prodotti/funko-luffy-gear5.jpg'),
+    (3, 'Figure Batman Hush 1/6', 'Statua da collezione in scala 1:6.', 45.00, 22.00, 8, TRUE, 'McFarlane Toys', 'img/prodotti/batman-hush-figure.jpg'),
+    (3, 'Dragon Ball Ichiban Kuji - Goku Ultra Istinto', 'Figure premio della lotteria Ichiban Kuji.', 55.00, 22.00, 6, FALSE, 'Bandai', 'img/prodotti/goku-ultra-istinto.jpg'),
+    (3, 'Action Figure Iron Man Mark 85', 'Riproduzione ad altissimo dettaglio.', 289.00, 22.00, 3, FALSE, 'Hot Toys', 'img/prodotti/ironman-mk85.jpg'),
+    (3, 'Nendoroid Nezuko Kamado', 'Nendoroid ufficiale da Demon Slayer.', 49.90, 22.00, 10, FALSE, 'Good Smile Company', 'img/prodotti/nendoroid-nezuko.jpg'),
+    (4, 'Zaino Naruto Akatsuki', 'Zaino scuola/tempo libero con logo Akatsuki.', 39.90, 22.00, 25, FALSE, 'Art 9 Merch', 'img/prodotti/zaino-akatsuki.jpg'),
+    (4, 'Felpa Attack on Titan Survey Corps', 'Felpa unisex con stemma del Corpo di Ricerca.', 34.90, 22.00, 20, FALSE, 'Art 9 Merch', 'img/prodotti/felpa-aot.jpg'),
+    (4, 'Tazza Termosensibile Dragon Ball', 'Cambia immagine al contatto con liquidi caldi.', 12.90, 22.00, 60, FALSE, 'Art 9 Merch', 'img/prodotti/tazza-dragonball.jpg'),
+    (4, 'Poster One Piece - Ciurma di Cappello di Paglia', 'Stampa di alta qualita'' formato 61x91cm.', 9.90, 22.00, 45, FALSE, 'Art 9 Merch', 'img/prodotti/poster-onepiece.jpg'),
     (4, 'Portafoglio Death Note', 'Portafoglio in ecopelle con stampa Death Note.', 22.90, 22.00, 15, FALSE, 'Art 9 Merch', 'img/prodotti/portafoglio-deathnote.svg'),
 
-    (5, 'Portachiavi Pokemon Pikachu 3D', 'Portachiavi in gomma sagomata.', 6.90, 22.00, 80, FALSE, 'Art 9 Gadget', 'img/prodotti/portachiavi-pikachu.svg'),
-    (5, 'Set Spille Studio Ghibli', 'Set da 5 spille smaltate a tema Ghibli.', 8.90, 22.00, 40, FALSE, 'Art 9 Gadget', 'img/prodotti/spille-ghibli.svg'),
-    (5, 'Mousepad Cyberpunk Edgerunners XL', 'Tappetino mouse extra large da gaming.', 14.90, 22.00, 30, FALSE, 'Art 9 Gadget', 'img/prodotti/mousepad-cyberpunk.svg'),
-    (5, 'Lampada LED Logo Marvel', 'Lampada da scrivania con logo Marvel luminoso.', 24.90, 22.00, 18, FALSE, 'Art 9 Gadget', 'img/prodotti/lampada-marvel.svg');
+    (5, 'Portachiavi Pokemon Pikachu 3D', 'Portachiavi in gomma sagomata.', 6.90, 22.00, 80, FALSE, 'Art 9 Gadget', 'img/prodotti/portachiavi-pikachu.jpg'),
+    (5, 'Set Spille Studio Ghibli', 'Set da 5 spille smaltate a tema Ghibli.', 8.90, 22.00, 40, FALSE, 'Art 9 Gadget', 'img/prodotti/spille-ghibli.jpg'),
+    (5, 'Mousepad Cyberpunk Edgerunners XL', 'Tappetino mouse extra large da gaming.', 14.90, 22.00, 30, FALSE, 'Art 9 Gadget', 'img/prodotti/mousepad-cyberpunk.jpg'),
+    (5, 'Lampada LED Logo Marvel', 'Lampada da scrivania con logo Marvel luminoso.', 24.90, 22.00, 18, FALSE, 'Art 9 Gadget', 'img/prodotti/lampada-marvel.jpg');
 
 
 INSERT INTO ordine (id_utente, id_metodo_pagamento, data_ordine, stato, totale, indirizzo_spedizione) VALUES
