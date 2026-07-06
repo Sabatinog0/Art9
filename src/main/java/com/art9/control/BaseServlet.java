@@ -20,11 +20,17 @@ public abstract class BaseServlet extends HttpServlet {
 
     
     protected void forward(HttpServletRequest req, HttpServletResponse resp, String jspPath)
-            throws ServletException, IOException {
-        req.setAttribute("categorieMenu", categoriaDao.findAll());
-        req.setAttribute("carrello", carrelloCorrente(req));
-        req.getRequestDispatcher(jspPath).forward(req, resp);
+        throws ServletException, IOException {
+    String percorsoCorrente = req.getServletPath();
+    if (req.getQueryString() != null) {
+        percorsoCorrente += "?" + req.getQueryString();
     }
+    req.setAttribute("percorsoCorrente", percorsoCorrente);
+
+    req.setAttribute("categorieMenu", categoriaDao.findAll());
+    req.setAttribute("carrello", carrelloCorrente(req));
+    req.getRequestDispatcher(jspPath).forward(req, resp);
+}
 
     protected Utente utenteCorrente(HttpServletRequest req) {
         HttpSession session = req.getSession(false);
