@@ -1,0 +1,5 @@
+
+db.jdbcUrl=jdbc:mysql://localhost:3306/art9?useSSL=false&serverTimezone=Europe/Rome&characterEncoding=UTF-8
+db.username=art9_user
+db.password=password
+db.pool.maxSize=10
